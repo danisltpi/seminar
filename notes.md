@@ -2,9 +2,9 @@
 
 ## Todo
 
-- setup writing
-  - setup typst / latex
-  - setup zotero for literature
+- [x] setup writing
+  - [x] setup typst / latex
+  - [x] setup zotero for literature
 - make a presentation
 - research
 - understand the algorithm

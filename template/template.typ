@@ -62,12 +62,12 @@
   examiner: none,
   abstract: [],
   authors: (),
-  logo: none,
+  logo: "",
   body
 ) = {
   // Set the document's basic properties.
   set document(author: authors.map(a => a.name), title: title)
-  set text(font: "New Computer Modern", lang: "de", region: "de", size: 12pt)
+  set text(font: "New Computer Modern", lang: "de", region: "de", size: 11pt)
   show math.equation: set text(weight: 400)
   set heading(numbering: "1.1")
   set par(justify: true)
@@ -102,7 +102,7 @@
 
   v(2em)
   align(center)[
-    vorgelegt von
+    vorgelegt von \
   ]
 
   // Author information.
@@ -168,7 +168,7 @@
       #heading(
         outlined: false,
         numbering: none,
-        text(0.85em, smallcaps[Abstract]),
+        text(0.85em, smallcaps[Zusammenfassung]),
       )
     ]
     #abstract
@@ -183,7 +183,7 @@
 
   // Main body.
   set page(numbering: "1", number-align: center)
-  set page(header: getHeader())
+  // set page(header: getHeader())
   counter(page).update(1)
   body
 }
