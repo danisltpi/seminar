@@ -167,28 +167,42 @@
   pagebreak()
 
   // Abstract page.
-  // if abstract != [] [
-  //   #set page(numbering: "I", number-align: center)
-  //   #v(1fr)
-  //   #align(center)[
-  //     #heading(
-  //       outlined: false,
-  //       numbering: none,
-  //       text(0.85em, smallcaps[Zusammenfassung]),
-  //     )
-  //   ]
-  //   #abstract
-  //   #v(1.618fr)
-  //   #pagebreak()
-
-  //   // Table of contents.
-  //   #outline(depth: 3, indent: true)
-  //   #pagebreak()
+  set page(numbering: "I", number-align: center)
+  // v(1fr)
+  // align(center)[
+  //   #heading(
+  //     outlined: false,
+  //     numbering: none,
+  //     text(0.85em, smallcaps[Zusammenfassung]),
+  //   )
   // ]
+  // #abstract
+  // #v(1.618fr)
+  // #pagebreak()
+
+  // Table of contents.
+  show outline: set par(leading: 2em)
+  show outline.entry.where(level: 1): it => {
+    strong(it)
+  }
+  outline(indent: auto)
+  pagebreak()
+
 
   // Main body.
-  set page(numbering: "1", number-align: center)
+  // set page(
+  //   footer: locate(loc => {
+  //     let page-number = counter(page).at(loc).first()
+  //     let match-list = query(selector(<turn-on-page-numbering>).before(loc), loc)
+  //     if match-list == () {
+  //       return none
+  //     }
+  //     align(center, str(page-number))
+  //   }),
+  // )
   // set page(header: getHeader())
-  // counter(page).update(1)
+  set page(numbering: "1", number-align: center)
+  counter(page).update(1)
+
   body
 }

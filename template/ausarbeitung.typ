@@ -3,7 +3,7 @@
 
 #set text(lang: "de", region: "de")
 #set par(leading: 1em)
-#show outline: set par(leading: 2em)
+// #show outline: set par(leading: 2em)
 #show heading: it => [#pad(bottom: 1em, top: 1em)[#it]]
 
 #show: project.with(
@@ -17,10 +17,10 @@
   authors: ((name: "Danh Thien Luu", matriculation_number: "79663"),),
 )
 
-#show outline.entry.where(level: 1): it => {
-  strong(it)
-}
-#outline(indent: auto)
+// #show outline.entry.where(level: 1): it => {
+//   strong(it)
+// }
+// #outline(indent: auto)
 
 #pagebreak(weak: true)
 
@@ -41,6 +41,9 @@ Sie besteht aus mehreren Heaps (Binärbäume)
     line((0, 0), (2, 1))
     line((0, 0), (1.5, -1))
   })]
+
+== Dijkstra-Algorithmus
+
 
 = Laufzeit
 
