@@ -1,13 +1,13 @@
 #let buildMainHeader(mainHeadingContent) = {
   [
-    #align(center, smallcaps(mainHeadingContent)) 
+    #align(center, smallcaps(mainHeadingContent))
     #line(length: 100%)
   ]
 }
 
 #let buildSecondaryHeader(mainHeadingContent, secondaryHeadingContent) = {
   [
-    #smallcaps(mainHeadingContent)  #h(1fr)  #emph(secondaryHeadingContent) 
+    #smallcaps(mainHeadingContent) #h(1fr) #emph(secondaryHeadingContent)
     #line(length: 100%)
   ]
 }
@@ -29,20 +29,26 @@
   locate(loc => {
     // Find if there is a level 1 heading on the current page
     let nextMainHeading = query(selector(heading).after(loc), loc).find(headIt => {
-     headIt.location().page() == loc.page() and headIt.level == 1
+      headIt.location().page() == loc.page() and headIt.level == 1
     })
     if (nextMainHeading != none) {
       return buildMainHeader(nextMainHeading.body)
     }
     // Find the last previous level 1 heading -- at this point surely there's one :-)
-    let lastMainHeading = query(selector(heading).before(loc), loc).filter(headIt => {
-      headIt.level == 1
-    }).last()
+    let lastMainHeading = query(selector(heading).before(loc), loc)
+      .filter(headIt => {
+          headIt.level == 1
+        })
+      .last()
     // Find if the last level > 1 heading in previous pages
     let previousSecondaryHeadingArray = query(selector(heading).before(loc), loc).filter(headIt => {
       headIt.level > 1
     })
-    let lastSecondaryHeading = if (previousSecondaryHeadingArray.len() != 0) {previousSecondaryHeadingArray.last()} else {none}
+    let lastSecondaryHeading = if (previousSecondaryHeadingArray.len() != 0) {
+      previousSecondaryHeadingArray.last()
+    } else {
+      none
+    }
     // Find if the last secondary heading exists and if it's after the last main heading
     if (lastSecondaryHeading != none and isAfter(lastSecondaryHeading, lastMainHeading)) {
       return buildSecondaryHeader(lastMainHeading.body, lastSecondaryHeading.body)
@@ -63,7 +69,7 @@
   abstract: [],
   authors: (),
   logo: "",
-  body
+  body,
 ) = {
   // Set the document's basic properties.
   set document(author: authors.map(a => a.name), title: title)
@@ -157,33 +163,32 @@
       *Veranstaltung*: #module
     ]
   }
-  
+
   pagebreak()
 
   // Abstract page.
-  if abstract != [] [
-    #set page(numbering: "I", number-align: center)
-    #v(1fr)
-    #align(center)[
-      #heading(
-        outlined: false,
-        numbering: none,
-        text(0.85em, smallcaps[Zusammenfassung]),
-      )
-    ]
-    #abstract
-    #v(1.618fr)
-    #counter(page).update(1)
-    #pagebreak()
+  // if abstract != [] [
+  //   #set page(numbering: "I", number-align: center)
+  //   #v(1fr)
+  //   #align(center)[
+  //     #heading(
+  //       outlined: false,
+  //       numbering: none,
+  //       text(0.85em, smallcaps[Zusammenfassung]),
+  //     )
+  //   ]
+  //   #abstract
+  //   #v(1.618fr)
+  //   #pagebreak()
 
-    // Table of contents.
-    #outline(depth: 3, indent: true)
-    #pagebreak()
-  ]
+  //   // Table of contents.
+  //   #outline(depth: 3, indent: true)
+  //   #pagebreak()
+  // ]
 
   // Main body.
   set page(numbering: "1", number-align: center)
   // set page(header: getHeader())
-  counter(page).update(1)
+  // counter(page).update(1)
   body
 }
