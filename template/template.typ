@@ -108,7 +108,7 @@
 
   v(2em)
   align(center)[
-    vorgelegt von \
+    von \
   ]
 
   // Author information.

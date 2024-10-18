@@ -204,3 +204,35 @@ Woche 9: Probevortrag
 
 - collection of rooted trees, min-heap ordered (could also be max heap tho)
 - min heap property: A[parent] >= A[node]
+- every node has a pointer to: parent (x.p), child (x.child), left and right (x.left/x.right)
+- child list: children of x in a circular doubly linked list (linked list with pointers to the prev and next node)
+- advantages:
+
+  - insert node into any location or remove node from anywhere in the circular linked list with O(1) time
+  - given two of these, we can concatenate them to one in O(1) time
+
+- x.degree is the number of children a node has (number of nodes in child list)
+- x.mark indicates whether x has lost a child since x was made a child of another node, newly created nodes are unmarked and becomes unmarked if it becomes a child of another node
+- to access a fibonacci heap H, we have a pointer to H.min, which is the root of the tree containing the minimum key (called minimum node)
+- if there are multiple nodes with the minimum value, then any of them can be the root
+- if H is empty, then h.min is NIL
+- root list: the circular doubly linked list of roots of all trees in the fibonacci heap, using their left and right pointers, where the trees appear in any order
+- H.n is the number of nodes in the fibonacci heap H currently
+
+## Laufzeit-Analyse
+
+- durch potential function
+
+- potential wird definiert: $\Phi(H) = t(H) + 2m(H)$
+
+- $t(H)$: anzahl bäume in H (root list)
+
+- $m(H)$: anzahl markierte knoten
+
+- das potential eines fibonacci heaps ist die summe der potentiale ihrer teil fibonacci heaps
+
+- potential kann als konstante für die höhe an arbeit dienen
+
+- am anfang ist das potential 0
+
+- für die potenzial method gilt, dass die obere schranke für amortisierte zeiten eine obere schranke für die tatsächliche laufzeit bietet
