@@ -64,7 +64,7 @@
 ## Guide
 
 1. Recherche und Informationsbeschaffung
-   Schritt 1: Grundlagenliteratur lesen [current]
+   Schritt 1: Grundlagenliteratur lesen
 
 - Beginne mit einem Überblick über grundlegende Datenstrukturen und Heaps in Algorithmen-Büchern (z.B. "Introduction to Algorithms" von Cormen et al.).
 
@@ -236,3 +236,15 @@ Woche 9: Probevortrag
 - am anfang ist das potential 0
 
 - für die potenzial method gilt, dass die obere schranke für amortisierte zeiten eine obere schranke für die tatsächliche laufzeit bietet
+
+## mergeable heap operationen
+
+- die operationen verzögern arbeit so lang wie möglich
+- operationen haben performance trade offs
+- beim einfügen eines neuen knotens in den baum wird es zur wurzel eines neuen min heap ordered baum
+- ein neuen fibonacci heap anlegen: O(1)
+- ein knoten hinzufügen: O(1)
+- nach kleinstem knoten suchen: O(1) (h.min)
+- zwei heaps vereinigen: O(1)
+- kleinsten knoten extrahieren
+  - hier werden teilbäume konsolodiert

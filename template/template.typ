@@ -185,7 +185,7 @@
   show outline.entry.where(level: 1): it => {
     strong(it)
   }
-  outline(indent: auto)
+  outline(indent: auto, depth: 2)
   pagebreak()
 
 

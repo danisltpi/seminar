@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1000"
-   height="650"
-   viewBox="0 0 335.62363 218.15536"
+   width="3000"
+   height="1950"
+   viewBox="0 0 1006.8709 654.46608"
    version="1.1"
    id="svg1"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    sodipodi:docname="circle.svg"
    inkscape:export-filename="circle.svg"
    inkscape:export-xdpi="96"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#464646"
      inkscape:document-units="mm"
-     inkscape:zoom="0.63470415"
-     inkscape:cx="445.87703"
-     inkscape:cy="334.80165"
+     inkscape:zoom="1.2825606"
+     inkscape:cx="244.04306"
+     inkscape:cy="1385.1198"
      inkscape:window-width="1512"
      inkscape:window-height="916"
      inkscape:window-x="0"
@@ -60,14 +60,14 @@
      id="defs1">
     <rect
        x="245.6693"
-       y="340.15749"
+       y="340.1575"
        width="18.897638"
-       height="28.656415"
+       height="28.656416"
        id="rect33" />
     <rect
-       x="436.20652"
+       x="436.20651"
        y="392.3215"
-       width="241.63198"
+       width="241.63197"
        height="44.94249"
        id="rect4" />
   </defs>
@@ -77,7 +77,7 @@
      id="layer1"
      style="display:inline">
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.67124726;stroke-dasharray:none"
+       style="fill:#000000;stroke:#000000;stroke-width:0.671247;stroke-dasharray:none"
        d="m 161.69164,98.266702 0.0281,38.074258"
        id="path1" />
     <path
@@ -101,11 +101,15 @@
        d="M 199.66968,136.40557 215.98572,98.534359"
        id="path3" />
     <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.671247"
+       d="M 123.63668,428.1603 98.351826,453.5846"
+       id="path11" />
+    <path
        style="fill:#000000;stroke:#000000;stroke-width:0.536662;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 199.7466,136.51174 -0.0769,37.94879"
        id="path4" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.70480962;stroke-dasharray:0.70480962,2.11444213;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.70481;stroke-dasharray:0.70481, 2.11444;stroke-dashoffset:0;stroke-opacity:1"
        d="M 16.490484,98.535033 H 215.64479 v 0"
        id="path34" />
     <path
@@ -289,7 +293,7 @@
            id="tspan29-9-7-8-3-6-7"
            x="176.09518"
            y="90.766998"
-           style="stroke-width:0.276459;stroke:#ffffff;fill:#ffffff">26</tspan></text>
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.276459">26</tspan></text>
     </g>
     <g
        id="g29-8-0-9-6-7-7"
@@ -460,5 +464,197 @@
              style="stroke-width:0.276459">41</tspan></text>
       </g>
     </g>
+    <g
+       id="g29-8-8"
+       transform="translate(-75.040304,378.98451)"
+       inkscape:label="g29"
+       style="display:inline">
+      <circle
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path23-2-8-0-6"
+         cx="161.69943"
+         cy="98.308647"
+         r="9.4264717"
+         inkscape:label="2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="176.30031"
+         y="90.766998"
+         id="text24-2-5"
+         transform="scale(0.88647782,1.1280598)"><tspan
+           sodipodi:role="line"
+           id="tspan29-9-76"
+           x="176.30031"
+           y="90.766998"
+           style="stroke-width:0.276459">23</tspan></text>
+    </g>
+    <g
+       id="g29-8-8-7"
+       transform="translate(-38.062754,329.85164)"
+       inkscape:label="g29"
+       style="display:inline">
+      <circle
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path23-2-8-0-6-1"
+         cx="161.69943"
+         cy="98.308647"
+         r="9.4264717"
+         inkscape:label="2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="179.50337"
+         y="90.827484"
+         id="text24-2-5-8"
+         transform="scale(0.88647782,1.1280598)"><tspan
+           sodipodi:role="line"
+           id="tspan29-9-76-7"
+           x="179.50337"
+           y="90.827484"
+           style="stroke-width:0.276459">2</tspan></text>
+    </g>
+    <g
+       id="g2"
+       transform="translate(3.6654417,7.3609729)" />
+    <g
+       id="g7"
+       transform="translate(-101.06529,105.72029)">
+      <g
+         id="g29-8-8-7-8"
+         transform="translate(37.49155,249.55566)"
+         inkscape:label="g29"
+         style="display:inline">
+        <circle
+           style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path23-2-8-0-6-1-8"
+           cx="161.69943"
+           cy="98.308647"
+           r="9.4264717"
+           inkscape:label="2" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="179.50337"
+           y="90.827484"
+           id="text24-2-5-8-7"
+           transform="scale(0.88647782,1.1280598)"><tspan
+             sodipodi:role="line"
+             id="tspan29-9-76-7-1"
+             x="179.50337"
+             y="90.827484"
+             style="stroke-width:0.276459">4</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g8"
+       transform="translate(-49.617883,98.823084)">
+      <g
+         id="g7-4"
+         transform="translate(25.369979,7.1338772)"
+         style="display:inline">
+        <g
+           id="g29-8-8-7-8-0"
+           transform="translate(37.49155,249.55566)"
+           inkscape:label="g29"
+           style="display:inline">
+          <circle
+             style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="path23-2-8-0-6-1-8-7"
+             cx="161.69943"
+             cy="98.308647"
+             r="9.4264717"
+             inkscape:label="2" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="179.50337"
+             y="90.827484"
+             id="text24-2-5-8-7-5"
+             transform="scale(0.88647782,1.1280598)"><tspan
+               sodipodi:role="line"
+               id="tspan29-9-76-7-1-7"
+               x="179.50337"
+               y="90.827484"
+               style="stroke-width:0.276459">7</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g10"
+       transform="translate(12.684988,137.86787)">
+      <g
+         id="g5-4"
+         transform="translate(-4.5631845,8.142985)">
+        <circle
+           style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path23-2-8-0-6-1-2-1"
+           cx="187.76895"
+           cy="332.00198"
+           r="9.4264717"
+           inkscape:label="2" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="205.47949"
+           y="297.87311"
+           id="text24-2-5-8-4-8"
+           transform="scale(0.88647782,1.1280598)"><tspan
+             sodipodi:role="line"
+             id="tspan29-9-76-7-5-5"
+             x="205.47949"
+             y="297.87311"
+             style="stroke-width:0.276459">13</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5"
+       transform="translate(-35.614834,145.9456)">
+      <circle
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path23-2-8-0-6-1-2"
+         cx="187.76895"
+         cy="332.00198"
+         r="9.4264717"
+         inkscape:label="2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="205.47949"
+         y="297.87311"
+         id="text24-2-5-8-4"
+         transform="scale(0.88647782,1.1280598)"><tspan
+           sodipodi:role="line"
+           id="tspan29-9-76-7-5"
+           x="205.47949"
+           y="297.87311"
+           style="stroke-width:0.276459">15</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="translate(-110.41071,145.94559)">
+      <circle
+         style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.258443;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path23-2-8-0-6-1-2-2"
+         cx="163.94814"
+         cy="332.00198"
+         r="9.4264717"
+         inkscape:label="2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2561px;font-family:'FiraCode Nerd Font';-inkscape-font-specification:'FiraCode Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.276459;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="181.78758"
+         y="297.93097"
+         id="text24-2-5-8-4-0"
+         transform="scale(0.88647782,1.1280598)"><tspan
+           sodipodi:role="line"
+           id="tspan29-9-76-7-5-4"
+           x="181.78758"
+           y="297.93097"
+           style="stroke-width:0.276459">8</tspan></text>
+    </g>
   </g>
+  <g
+     id="g9"
+     transform="translate(9.6731685,161.18674)" />
 </svg>
